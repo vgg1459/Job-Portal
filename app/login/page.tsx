@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 export default function LoginPage() {
   const [formData, setFormData] = useState({
     email: "",
@@ -54,6 +55,7 @@ export default function LoginPage() {
 
   return (
     <main className="min-h-screen flex items-center justify-center p-5 bg-[#F7F9FC]">
+      <Navbar />
       <section className="w-full max-w-md bg-white p-9 md:p-10 rounded-2xl shadow-md">
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-[#799EFF]">
           Log In
@@ -102,6 +104,7 @@ export default function LoginPage() {
           </a>
         </p>
       </section>
+      <Footer />
     </main>
   );
 }

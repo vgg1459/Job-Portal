@@ -6,16 +6,9 @@ export default function Footer() {
 
   return (
     <footer
-      style={{
-        background: "#799EFF",
-        padding: "20px 0",
-        textAlign: "center",
-        color: hover ? "#799EFF" : "white",
-        fontSize: "0.9rem",
-        fontWeight: "500",
-        transition: "color 0.3s ease",
-        boxShadow: "0 -4px 12px rgba(0,0,0,0.05)",
-      }}
+      className={`bg-[#799EFF] py-1 text-center font-medium text-sm shadow-[0_-4px_12px_rgba(0,0,0,0.05)] transition-colors duration-300 ${
+        hover ? "text-[#799EFF]" : "text-white"
+      }`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >

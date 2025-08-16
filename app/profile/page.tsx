@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function ProfilePage() {
   const [profile, setProfile] = useState({
@@ -103,6 +105,7 @@ export default function ProfilePage() {
 
   return (
     <main className="min-h-screen flex items-center justify-center p-5 bg-[#F7F9FC]">
+      <Navbar />
       <section className="w-full max-w-md bg-white p-9 rounded-2xl shadow-lg">
         <h2 className="text-2xl font-bold mb-6 text-center text-[#799EFF]">
           Profile
@@ -158,6 +161,7 @@ export default function ProfilePage() {
           </button>
         </form>
       </section>
+      <Footer />
     </main>
   );
 }

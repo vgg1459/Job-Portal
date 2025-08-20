@@ -16,7 +16,7 @@ export default function EmployerRegistration() {
     address: "",
   });
 
-  // ✅ Pre-fill form if stored details exist
+  
   useEffect(() => {
     const stored = localStorage.getItem("employerDetails");
     if (stored) {
@@ -33,9 +33,9 @@ export default function EmployerRegistration() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    localStorage.setItem("employerDetails", JSON.stringify(formData)); // ✅ save to localStorage
+    localStorage.setItem("employerDetails", JSON.stringify(formData)); 
     alert("Company details saved!");
-    router.push("/employer/profile"); // ✅ redirect to profile
+    router.push("/employer/profile"); 
   };
 
   return (

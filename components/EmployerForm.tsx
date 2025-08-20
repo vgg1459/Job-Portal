@@ -20,7 +20,7 @@ export default function EmployerProfile() {
   };
 
   const handleUpdate = () => {
-    router.push("/employer/register"); // ✅ go back to registration to update
+    router.push("/employer/register"); 
   };
 
   if (!employer) {

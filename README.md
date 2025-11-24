@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project for TNS Front End
-
+## Job-Portal
 ## Project Overview
 
 This project is the frontend of a Job Portal web application developed during my internship.

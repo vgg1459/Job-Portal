@@ -1,4 +1,4 @@
-## Job-Portal
+
 ## Project Overview
 
 This project is the frontend of a Job Portal web application developed during my internship.

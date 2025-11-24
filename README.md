@@ -1,19 +1,24 @@
 <<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project for TNS Front End
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This project is the frontend of a Job Portal web application developed during my internship.
+It provides a responsive and user-friendly interface for job seekers and recruiters, including registration, login, and navigation through job listings.
 
+## Project Highlights
+-Built using Next.js App Router with client components for dynamic behavior
+-Typed with TypeScript for safer, maintainable code
+-Styled using Tailwind CSS for UI
+
+## Instructions
+
+1. First, install dependencies
+```bash
+npm install
+```
+2. Start the development server:
 ```bash
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Details
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-=======
-# Job-Portal
->>>>>>> fcd57e8b5e4838de54d0b604bb887745e0ce0e48
+3. Open 'http://localhost:3000' in your browser

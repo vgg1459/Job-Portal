@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project for TNS Front End
 
 ## Getting Started
@@ -13,3 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Details
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+=======
+# Job-Portal
+>>>>>>> fcd57e8b5e4838de54d0b604bb887745e0ce0e48

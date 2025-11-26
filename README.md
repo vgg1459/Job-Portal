@@ -20,3 +20,8 @@ npm install
 npm run dev
 ```
 3. Open 'http://localhost:3000' in your browser
+
+## Screenshot
+
+<img width="1920" height="852" alt="Job-Portal Homapage" src="https://github.com/user-attachments/assets/8fd0c558-9cb5-49d5-a740-cd94156809a5" />
+

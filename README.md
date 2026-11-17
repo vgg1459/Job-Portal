@@ -1,7 +1,7 @@
 
 ## Project Overview
 
-This project is the frontend of a Job Portal web application developed during my internship.
+This project contains only the frontend of a Job Portal web application developed during my internship.
 It provides a responsive and user-friendly interface for job seekers and recruiters, including registration, login, and navigation through job listings.
 
 ## Project Highlights
